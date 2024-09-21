@@ -69,10 +69,11 @@ button:active{
 @media screen and (max-width:620px) {
     input{
         height: 5vh;
+        width:50vw;
     }
     button{
         height: 5vh;
-        width: 10vw;
+        width: 15vw;
         font-size:10px;
         text-align: center;
     }
