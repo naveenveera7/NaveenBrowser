@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    background-image: url('https://th.bing.com/th/id/R.646c1ec8d53c75eb85ef6eddda734c51?rik=okkJjNkmwPlyYQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fb%2f8%2ff%2f282452.jpg&ehk=OfIIlK%2fuGsrgKMUzcybMR71r7uPMREQup0d1YQbYtw8%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+h1{
+    color:aliceblue;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 35vw;
+    height: 7.5vh;
+    margin-top: 10px;
+    margin-right: 0;
+    padding-inline-start: 6px;
+    padding: 10px;
+    border: none;
+    outline:none;
+    border-radius: 25px 0 0 25px;
+    background-color: white;
+
+}
+button{
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    height: 7.5vh;
+    width:6vw;
+    margin-top: 10px;
+    margin-left: 0;
+    border: none;
+    border-radius: 25px;
+    border-radius: 0 25px 25px 0;
+    background-color: white;
+}
+button:hover{
+    background-color: skyblue;
+    border: none;
+}
+button:active{
+    background-color: lightblue;
+}
+@media screen and (max-width:620px) {
+    input{
+        height: 5vh;
+    }
+    button{
+        height: 5vh;
+        width: 10vw;
+        font-size:10px;
+        text-align: center;
+    }
+    body{
+        background-size:auto;
+        height: 50vh;
+    }
+    h1{
+        font-size: medium;
+    }
+    
+}
